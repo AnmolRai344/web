@@ -17,7 +17,7 @@ const port=process.env.PORT || 5000
 app.use(express.json())
 app.use(cookieParser())
 app.use(cors({
-    origin:"https://scaling-zebra-xrr7qxxjq6xgfppxw-5173.app.github.dev",
+    origin:"https://web-nelq.onrender.com",
     credentials:true
 }))
 app.use("/api/auth",authRouter)
